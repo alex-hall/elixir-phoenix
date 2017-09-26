@@ -1,3 +1,5 @@
+require IEx
+
 defmodule WebWeb.PageController do
   use WebWeb, :controller
 
