@@ -28,3 +28,27 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   mix phx.new web --database mysql --no-brunch
   mix ecto.create
 ```
+
+## Handy Commands
+
+Run the server:
+```zsh
+  mix phx.server
+```
+
+Debugging:
+
+First, require the debugger in the file, and add the breakpoint wherever you need to:
+
+```zsh
+  require IEx
+  
+  ...Wherever in the code...
+
+  IEx.pry
+
+```
+
+```zsh
+  iex -S mix phx.server
+```
